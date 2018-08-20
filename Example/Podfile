@@ -3,9 +3,4 @@ use_frameworks!
 target 'GTFTextAccessibility_Example' do
   pod 'GTFTextAccessibility', :path => '../'
 
-  target 'GTFTextAccessibility_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

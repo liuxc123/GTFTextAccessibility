@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19D5E426937D59B4908CFC5528A497C9 /* GTFColorCalculations.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A486585CDB17DFE2CACB8748FB3CA7 /* GTFColorCalculations.m */; };
+		282829EF118BCF0C30DC64EB7BF56EAA /* GTFTextAccessibility-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 854084662DD83E03CB6AE3DC5AB25EA0 /* GTFTextAccessibility-dummy.m */; };
+		6078EC99644F83AE121E32D7A2FC1328 /* GTFTextAccessibility-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 338D22EC3B21047ACAC1AED21451E3CB /* GTFTextAccessibility-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ABBFEB2AF6B3D91B54176C5E0B71917 /* NSArray+GTFUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A40F7685A9DE3A19B24B18FEED6F96CF /* NSArray+GTFUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7C069DEACED2901482A7D8FB85C79508 /* Pods-GTFTextAccessibility_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9DD7860F6132F58D344A9744FED99D /* Pods-GTFTextAccessibility_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E345B2872319A4939512F0578AAA692 /* GTFTextAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C82BF3C871048D1AD8C9B2BB9D460 /* GTFTextAccessibility.m */; };
+		8244D955607BB9073283C6A0A50C70D7 /* GTFImageCalculations.h in Headers */ = {isa = PBXBuildFile; fileRef = 65DB0AFFD1BCA41CA277954642A02ECE /* GTFImageCalculations.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		95E2AC09BB871899DF54902D89B7723E /* GTFImageCalculations.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C36899C319965C488598773043F98DF /* GTFImageCalculations.m */; };
+		A14A909CB64EC6B2A059FD8A11405919 /* GTFTextAccessibility-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 601D43ECDA74C8FEAC4AC3EE61E0257C /* GTFTextAccessibility-Bridging-Header.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B3013C1556F6D4353772A0624D6E5A54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B4F9FCBEE53C9746A9BECD61E4519EDE /* GTFTextAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = E0B11B0EC93526A8F1A9C556F4247C67 /* GTFTextAccessibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8B459EC17ECFC0AFC5324CBE9DA5753 /* NSArray+GTFUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4572098770F4E257E84019E5EA559404 /* NSArray+GTFUtils.m */; };
+		DCB2600C4BBCEDE8C0CB2D034721D1ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E104A59095BEE2C29C6DADE3BBB556AB /* GTFColorCalculations.h in Headers */ = {isa = PBXBuildFile; fileRef = 9260FC3171B4420F1E173859FD264EE9 /* GTFColorCalculations.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FB0C24F81AB67781666C83D8662E686A /* Pods-GTFTextAccessibility_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFFCA0147E2235B67A8612C167FD59B /* Pods-GTFTextAccessibility_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		577246E7DBF40C9B3E63EA3F0502B8D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BC6D0CF95C234BB8A1AB6BEFAD9B730;
+			remoteInfo = GTFTextAccessibility;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0280699D5291E8DBA50EA2FF53B187ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1261FA14CF5A194929D1ECCE49CBDA57 /* Pods-GTFTextAccessibility_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTFTextAccessibility_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1293E1742C8BD859B01641D1FE2405CF /* Pods-GTFTextAccessibility_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTFTextAccessibility_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		338D22EC3B21047ACAC1AED21451E3CB /* GTFTextAccessibility-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTFTextAccessibility-umbrella.h"; sourceTree = "<group>"; };
+		35869A8B1126103C999921001DDEB348 /* Pods-GTFTextAccessibility_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTFTextAccessibility_Example-resources.sh"; sourceTree = "<group>"; };
+		44A9E603E85AF1C14C96E37B366BA6E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4572098770F4E257E84019E5EA559404 /* NSArray+GTFUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+GTFUtils.m"; sourceTree = "<group>"; };
+		4FDFE03C4B26A9B5C3EB9A988DAD4365 /* Pods-GTFTextAccessibility_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTFTextAccessibility_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A3C82BF3C871048D1AD8C9B2BB9D460 /* GTFTextAccessibility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTFTextAccessibility.m; path = src/GTFTextAccessibility.m; sourceTree = "<group>"; };
+		601D43ECDA74C8FEAC4AC3EE61E0257C /* GTFTextAccessibility-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTFTextAccessibility-Bridging-Header.h"; path = "src/GTFTextAccessibility-Bridging-Header.h"; sourceTree = "<group>"; };
+		65DB0AFFD1BCA41CA277954642A02ECE /* GTFImageCalculations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTFImageCalculations.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67A345903C44877475F6CB9466003283 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6EBE3C328017B0C640EEC590FF3D6104 /* Pods-GTFTextAccessibility_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTFTextAccessibility_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7C36899C319965C488598773043F98DF /* GTFImageCalculations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GTFImageCalculations.m; sourceTree = "<group>"; };
+		854084662DD83E03CB6AE3DC5AB25EA0 /* GTFTextAccessibility-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTFTextAccessibility-dummy.m"; sourceTree = "<group>"; };
+		8DA020855B2DA3BFA5D806E55F454362 /* GTFTextAccessibility.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTFTextAccessibility.modulemap; sourceTree = "<group>"; };
+		8F9DD7860F6132F58D344A9744FED99D /* Pods-GTFTextAccessibility_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTFTextAccessibility_Example-umbrella.h"; sourceTree = "<group>"; };
+		91FEB95EF9C7C8D1123C373F0D5EEE04 /* Pods_GTFTextAccessibility_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GTFTextAccessibility_Example.framework; path = "Pods-GTFTextAccessibility_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9260FC3171B4420F1E173859FD264EE9 /* GTFColorCalculations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTFColorCalculations.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95E0E94F03FDC3714B150D9FA67466B3 /* GTFTextAccessibility-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTFTextAccessibility-prefix.pch"; sourceTree = "<group>"; };
+		9FFFCA0147E2235B67A8612C167FD59B /* Pods-GTFTextAccessibility_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTFTextAccessibility_Example-dummy.m"; sourceTree = "<group>"; };
+		A40F7685A9DE3A19B24B18FEED6F96CF /* NSArray+GTFUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+GTFUtils.h"; sourceTree = "<group>"; };
+		CF5E7D971E2B2B624915A0A3DCE0AB2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CF85BC183164D98D2295AA50FEDE739B /* GTFTextAccessibility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTFTextAccessibility.framework; path = GTFTextAccessibility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54BD214673FD18D453EDAF32F385718 /* Pods-GTFTextAccessibility_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTFTextAccessibility_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D5E64BC3CBEF7E7F691BEF64A8BD2A8D /* GTFTextAccessibility.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTFTextAccessibility.xcconfig; sourceTree = "<group>"; };
+		D757F203B312B64223E3043F69F64EBA /* Pods-GTFTextAccessibility_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GTFTextAccessibility_Example.modulemap"; sourceTree = "<group>"; };
+		E0B11B0EC93526A8F1A9C556F4247C67 /* GTFTextAccessibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTFTextAccessibility.h; path = src/GTFTextAccessibility.h; sourceTree = "<group>"; };
+		E5A486585CDB17DFE2CACB8748FB3CA7 /* GTFColorCalculations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GTFColorCalculations.m; sourceTree = "<group>"; };
+		FDA1E93D3307B009A6D21A307ED2D7F7 /* GTFTextAccessibility.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GTFTextAccessibility.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3695C949DD1CBDEF018E8F446AE80FB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB2600C4BBCEDE8C0CB2D034721D1ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7740CE511E8547C7A80D5C8D842360E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3013C1556F6D4353772A0624D6E5A54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1516D23353640A057B28AAA6E6D6BF82 /* GTFTextAccessibility */ = {
+			isa = PBXGroup;
+			children = (
+				E0B11B0EC93526A8F1A9C556F4247C67 /* GTFTextAccessibility.h */,
+				5A3C82BF3C871048D1AD8C9B2BB9D460 /* GTFTextAccessibility.m */,
+				601D43ECDA74C8FEAC4AC3EE61E0257C /* GTFTextAccessibility-Bridging-Header.h */,
+				6E88B1B4E2731F94BE277473757997FD /* Pod */,
+				AF627D12FAF11F310DBAD16AD97E27B1 /* private */,
+				52D8A611F5D3255F2DCE63004C5A2EB7 /* Support Files */,
+			);
+			name = GTFTextAccessibility;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		52D8A611F5D3255F2DCE63004C5A2EB7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DA020855B2DA3BFA5D806E55F454362 /* GTFTextAccessibility.modulemap */,
+				D5E64BC3CBEF7E7F691BEF64A8BD2A8D /* GTFTextAccessibility.xcconfig */,
+				854084662DD83E03CB6AE3DC5AB25EA0 /* GTFTextAccessibility-dummy.m */,
+				95E0E94F03FDC3714B150D9FA67466B3 /* GTFTextAccessibility-prefix.pch */,
+				338D22EC3B21047ACAC1AED21451E3CB /* GTFTextAccessibility-umbrella.h */,
+				0280699D5291E8DBA50EA2FF53B187ED /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GTFTextAccessibility";
+			sourceTree = "<group>";
+		};
+		6E88B1B4E2731F94BE277473757997FD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FDA1E93D3307B009A6D21A307ED2D7F7 /* GTFTextAccessibility.podspec */,
+				CF5E7D971E2B2B624915A0A3DCE0AB2D /* LICENSE */,
+				67A345903C44877475F6CB9466003283 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C92BE51A63A00F00100E34E897217953 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7F49DFCAAF201617335BFDF1D99824AD /* Products */,
+				B4164A9F8B73434AFC857C135A870412 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F49DFCAAF201617335BFDF1D99824AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF85BC183164D98D2295AA50FEDE739B /* GTFTextAccessibility.framework */,
+				91FEB95EF9C7C8D1123C373F0D5EEE04 /* Pods_GTFTextAccessibility_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90BEEDAA56DE25C51B3EFC0727A39D8D /* Pods-GTFTextAccessibility_Example */ = {
+			isa = PBXGroup;
+			children = (
+				44A9E603E85AF1C14C96E37B366BA6E9 /* Info.plist */,
+				D757F203B312B64223E3043F69F64EBA /* Pods-GTFTextAccessibility_Example.modulemap */,
+				4FDFE03C4B26A9B5C3EB9A988DAD4365 /* Pods-GTFTextAccessibility_Example-acknowledgements.markdown */,
+				1261FA14CF5A194929D1ECCE49CBDA57 /* Pods-GTFTextAccessibility_Example-acknowledgements.plist */,
+				9FFFCA0147E2235B67A8612C167FD59B /* Pods-GTFTextAccessibility_Example-dummy.m */,
+				D54BD214673FD18D453EDAF32F385718 /* Pods-GTFTextAccessibility_Example-frameworks.sh */,
+				35869A8B1126103C999921001DDEB348 /* Pods-GTFTextAccessibility_Example-resources.sh */,
+				8F9DD7860F6132F58D344A9744FED99D /* Pods-GTFTextAccessibility_Example-umbrella.h */,
+				1293E1742C8BD859B01641D1FE2405CF /* Pods-GTFTextAccessibility_Example.debug.xcconfig */,
+				6EBE3C328017B0C640EEC590FF3D6104 /* Pods-GTFTextAccessibility_Example.release.xcconfig */,
+			);
+			name = "Pods-GTFTextAccessibility_Example";
+			path = "Target Support Files/Pods-GTFTextAccessibility_Example";
+			sourceTree = "<group>";
+		};
+		AF627D12FAF11F310DBAD16AD97E27B1 /* private */ = {
+			isa = PBXGroup;
+			children = (
+				9260FC3171B4420F1E173859FD264EE9 /* GTFColorCalculations.h */,
+				E5A486585CDB17DFE2CACB8748FB3CA7 /* GTFColorCalculations.m */,
+				65DB0AFFD1BCA41CA277954642A02ECE /* GTFImageCalculations.h */,
+				7C36899C319965C488598773043F98DF /* GTFImageCalculations.m */,
+				A40F7685A9DE3A19B24B18FEED6F96CF /* NSArray+GTFUtils.h */,
+				4572098770F4E257E84019E5EA559404 /* NSArray+GTFUtils.m */,
+			);
+			name = private;
+			path = src/private;
+			sourceTree = "<group>";
+		};
+		B4164A9F8B73434AFC857C135A870412 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90BEEDAA56DE25C51B3EFC0727A39D8D /* Pods-GTFTextAccessibility_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C92BE51A63A00F00100E34E897217953 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1516D23353640A057B28AAA6E6D6BF82 /* GTFTextAccessibility */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		49DF1041DA46E7CD67EC7A4FE85DB19A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C069DEACED2901482A7D8FB85C79508 /* Pods-GTFTextAccessibility_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97A3F8B0FAFFBAC57F5D6B07A1914FF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E104A59095BEE2C29C6DADE3BBB556AB /* GTFColorCalculations.h in Headers */,
+				8244D955607BB9073283C6A0A50C70D7 /* GTFImageCalculations.h in Headers */,
+				A14A909CB64EC6B2A059FD8A11405919 /* GTFTextAccessibility-Bridging-Header.h in Headers */,
+				6078EC99644F83AE121E32D7A2FC1328 /* GTFTextAccessibility-umbrella.h in Headers */,
+				B4F9FCBEE53C9746A9BECD61E4519EDE /* GTFTextAccessibility.h in Headers */,
+				6ABBFEB2AF6B3D91B54176C5E0B71917 /* NSArray+GTFUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20235FFBD6DCA4C2F94639D054E0A1EB /* Pods-GTFTextAccessibility_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0BE29882956956B186D94FA5AF512B8 /* Build configuration list for PBXNativeTarget "Pods-GTFTextAccessibility_Example" */;
+			buildPhases = (
+				7F8260634F3CC37FECBC828A7F94A735 /* Sources */,
+				3695C949DD1CBDEF018E8F446AE80FB5 /* Frameworks */,
+				49DF1041DA46E7CD67EC7A4FE85DB19A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C52FF9C34ED65D076E34BAC2E80AFA6 /* PBXTargetDependency */,
+			);
+			name = "Pods-GTFTextAccessibility_Example";
+			productName = "Pods-GTFTextAccessibility_Example";
+			productReference = 91FEB95EF9C7C8D1123C373F0D5EEE04 /* Pods_GTFTextAccessibility_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2BC6D0CF95C234BB8A1AB6BEFAD9B730 /* GTFTextAccessibility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8EDEC860DE4A6953FC8BA0CF9EB542 /* Build configuration list for PBXNativeTarget "GTFTextAccessibility" */;
+			buildPhases = (
+				F18E30E992429FB8C14A72E834ED93CF /* Sources */,
+				7740CE511E8547C7A80D5C8D842360E8 /* Frameworks */,
+				97A3F8B0FAFFBAC57F5D6B07A1914FF8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTFTextAccessibility;
+			productName = GTFTextAccessibility;
+			productReference = CF85BC183164D98D2295AA50FEDE739B /* GTFTextAccessibility.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7F49DFCAAF201617335BFDF1D99824AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BC6D0CF95C234BB8A1AB6BEFAD9B730 /* GTFTextAccessibility */,
+				20235FFBD6DCA4C2F94639D054E0A1EB /* Pods-GTFTextAccessibility_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F8260634F3CC37FECBC828A7F94A735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0C24F81AB67781666C83D8662E686A /* Pods-GTFTextAccessibility_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18E30E992429FB8C14A72E834ED93CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D5E426937D59B4908CFC5528A497C9 /* GTFColorCalculations.m in Sources */,
+				95E2AC09BB871899DF54902D89B7723E /* GTFImageCalculations.m in Sources */,
+				282829EF118BCF0C30DC64EB7BF56EAA /* GTFTextAccessibility-dummy.m in Sources */,
+				7E345B2872319A4939512F0578AAA692 /* GTFTextAccessibility.m in Sources */,
+				C8B459EC17ECFC0AFC5324CBE9DA5753 /* NSArray+GTFUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C52FF9C34ED65D076E34BAC2E80AFA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTFTextAccessibility;
+			target = 2BC6D0CF95C234BB8A1AB6BEFAD9B730 /* GTFTextAccessibility */;
+			targetProxy = 577246E7DBF40C9B3E63EA3F0502B8D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0016BDF060C646FE780D828715E7051F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5E64BC3CBEF7E7F691BEF64A8BD2A8D /* GTFTextAccessibility.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTFTextAccessibility/GTFTextAccessibility-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTFTextAccessibility/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTFTextAccessibility/GTFTextAccessibility.modulemap";
+				PRODUCT_MODULE_NAME = GTFTextAccessibility;
+				PRODUCT_NAME = GTFTextAccessibility;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		703082A85162812D3B777E668767AD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7561BFB5BD81A3A6B7DEECDDB9D14A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1293E1742C8BD859B01641D1FE2405CF /* Pods-GTFTextAccessibility_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTFTextAccessibility_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTFTextAccessibility_Example/Pods-GTFTextAccessibility_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87DEF10B5DD86007CB2047177D29FC6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5E64BC3CBEF7E7F691BEF64A8BD2A8D /* GTFTextAccessibility.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTFTextAccessibility/GTFTextAccessibility-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTFTextAccessibility/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTFTextAccessibility/GTFTextAccessibility.modulemap";
+				PRODUCT_MODULE_NAME = GTFTextAccessibility;
+				PRODUCT_NAME = GTFTextAccessibility;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A9BA45F23A933E1CA395B9DD4D5F39E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EBE3C328017B0C640EEC590FF3D6104 /* Pods-GTFTextAccessibility_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTFTextAccessibility_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTFTextAccessibility_Example/Pods-GTFTextAccessibility_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
+				703082A85162812D3B777E668767AD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E8EDEC860DE4A6953FC8BA0CF9EB542 /* Build configuration list for PBXNativeTarget "GTFTextAccessibility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0016BDF060C646FE780D828715E7051F /* Debug */,
+				87DEF10B5DD86007CB2047177D29FC6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0BE29882956956B186D94FA5AF512B8 /* Build configuration list for PBXNativeTarget "Pods-GTFTextAccessibility_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7561BFB5BD81A3A6B7DEECDDB9D14A2C /* Debug */,
+				A9BA45F23A933E1CA395B9DD4D5F39E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - GTFTextAccessibility (0.1.0)
+
+DEPENDENCIES:
+  - GTFTextAccessibility (from `../`)
+
+EXTERNAL SOURCES:
+  GTFTextAccessibility:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GTFTextAccessibility: b07362e8b46f48831940bf834c9a43a7f87e3e62
+
+PODFILE CHECKSUM: b71f61a648bfd26aed07aa8b899c0f64cfdf4fef
+
+COCOAPODS: 1.5.0
